@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <title>Sarvvid</title>
+  </head>
+  <body>
+    <div class="first container">
+      <div class="head">
+        <h1>SarVVid</h1>
+        <h3>Most reliable place to store your data</h3>
+      </div>
+      <div class="first-details">
+        <div class="start">
+          <h4>New to sarvvid. Create an account for free</h4>
+          <button class="btn pri">Get Started</button>
+        </div>
+        <div class="start">
+          <h4>Already have an account.</h4>
+          <button class="btn pri">Log In</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container signup">
+      <div class="title">
+        <h1>Welcome</h1>
+        <h5>Sign up in 2 minutes...</h5>
+      </div>
+      <div class="details main-card">
+        <form>
+          <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Type your name" />
+          </div>
+          <div class="form-item">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter password" />
+          </div>
+          <div class="form-item">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" placeholder="confirm password" />
+          </div>
+          <div class="form-item">
+            <label for="number">Phone number</label>
+            <input type="number" placeholder="Type your phone number" />
+          </div>
+          <div class="form-item">
+            <label for="gender">Gender</label>
+            <ul class="genders">
+              <li class="gender-item">
+                <div class="circle"></div>
+                Male
+              </li>
+              <li class="gender-item">
+                <div class="circle"></div>
+                Female
+              </li>
+              <li class="gender-item">
+                <div class="circle"></div>
+                Prefer not to say
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+      <div class="signup-footer">
+        <h4>
+          By signing up you agree to our <span class="bold">terms</span> and
+          <span class="bold">conditions</span>
+        </h4>
+        <button class="btn">Sign up</button>
+        <h5>Already have an account. <span class="bold">Sign In</span></h5>
+      </div>
+    </div>
+    <div class="container signin">
+      <div class="title">
+        <h1>Welcome Back</h1>
+        <h5>We missed you so much</h5>
+      </div>
+      <div class="details main-card">
+        <form>
+          <div class="form-item">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Type your name" />
+          </div>
+          <div class="form-item">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter password" />
+          </div>
+          <label for="forgot-password" class="forgot">Forgot password</label>
+        </form>
+      </div>
+      <div class="signin-footer">
+        <button class="btn">Sign up</button>
+        <h5>Already have an account. <span class="bold">Sign In</span></h5>
+      </div>
+    </div>
+    <div class="container home">
+      <div class="header">
+        <div class="ham">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="account">
+          <img src="./img/account.png" alt="" />
+          <p class="name">User name</p>
+        </div>
+      </div>
+      <div class="title-left">
+        <h1>File Manager</h1>
+        <h5>Let's clean and manage your files</h5>
+      </div>
+      <div class="data main-card">
+        <h1>Internal Storage</h1>
+        <div class="all">
+          <div class="percentage">
+            <svg>
+              <circle cx="50" cy="50" r="50"></circle>
+              <circle cx="50" cy="50" r="50"></circle>
+            </svg>
+            <div class="number">
+              <h2>78%</h2>
+              <p>full</p>
+            </div>
+          </div>
+          <div class="desc">
+            <h3>Available space: <span class="bold">20GB</span></h3>
+            <h3>Used space: <span class="bold">70GB</span></h3>
+            <button class="btn small">Storage</button>
+          </div>
+        </div>
+      </div>
+      <div class="data main-card">
+        <h1>De-Centralized Storage</h1>
+        <div class="all">
+          <div class="percentage second">
+            <svg>
+              <circle cx="50" cy="50" r="50"></circle>
+              <circle cx="50" cy="50" r="50"></circle>
+            </svg>
+            <div class="number">
+              <h2>34%</h2>
+              <p>full</p>
+            </div>
+          </div>
+          <div class="desc">
+            <h3>Available space: <span class="bold">40GB</span></h3>
+            <h3>Used space: <span class="bold">50GB</span></h3>
+            <button class="btn small">Storage</button>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <ul class="menu">
+          <li class="menu-item">
+            <img src="./img/home.png" alt="home" />
+            <p>Home</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/files.png" alt="files" />
+            <p>Files</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/account.png" alt="account" />
+            <p>Account</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/settings.png" alt="settings" />
+            <p>Settings</p>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <div class="container storage">
+      <div class="header">
+        <div class="ham">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="account">
+          <img src="./img/account.png" alt="" />
+          <p class="name">User name</p>
+        </div>
+      </div>
+
+      <div class="title-left bw">
+        <h1>My Storage</h1>
+        <h5>Refresh</h5>
+      </div>
+      <div class="all storage-percent">
+        <div class="percentage second">
+          <svg>
+            <circle cx="50" cy="50" r="50"></circle>
+            <circle cx="50" cy="50" r="50"></circle>
+          </svg>
+          <div class="number">
+            <h2>34%</h2>
+            <p>full</p>
+          </div>
+        </div>
+        <div class="desc">
+          <h3>Available space: <span class="bold">40GB</span></h3>
+          <h3>Used space: <span class="bold">50GB</span></h3>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="card main-card">
+          <img src="./img//image.png" alt="image" />
+          <h3>Image</h3>
+          <div>
+            <h5>files used: <span class="bold">0</span></h5>
+            <img src="./img/more.png" alt="more" class="more" />
+          </div>
+        </div>
+        <div class="card main-card">
+          <img src="./img//video.png" alt="video" />
+          <h3>Video</h3>
+          <div>
+            <h5>files used: <span class="bold">0</span></h5>
+            <img src="./img/more.png" alt="more" class="more" />
+          </div>
+        </div>
+        <div class="card main-card">
+          <img src="./img//audio.png" alt="audio" />
+          <h3>Audio</h3>
+          <div>
+            <h5>files used: <span class="bold">0</span></h5>
+            <img src="./img/more.png" alt="more" class="more" />
+          </div>
+        </div>
+        <div class="card main-card">
+          <img src="./img//documents.png" alt="documents" />
+          <h3>Documents</h3>
+          <div>
+            <h5>files used: <span class="bold">0</span></h5>
+            <img src="./img/more.png" alt="more" class="more" />
+          </div>
+        </div>
+      </div>
+      <div class="icons">
+        <img src="./img/plus.png" alt="plus" />
+        <img src="./img/question.png" alt="question" />
+      </div>
+      <footer class="footer">
+        <ul class="menu">
+          <li class="menu-item">
+            <img src="./img/home.png" alt="home" />
+            <p>Home</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/files.png" alt="files" />
+            <p>Files</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/account.png" alt="account" />
+            <p>Account</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/settings.png" alt="settings" />
+            <p>Settings</p>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <div class="container settings">
+      <div class="header">
+        <div class="ham">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="account">
+          <img src="./img/account.png" alt="" />
+          <p class="name">User name</p>
+        </div>
+      </div>
+      <div class="title-left">
+        <h1>Settings</h1>
+      </div>
+      <div class="account-details">
+        <img src="./img/account.png" alt="image" />
+        <div>
+          <h5>User Name</h5>
+          <p>ID: xxx-xxx-xxxx</p>
+        </div>
+      </div>
+      <div class="settings-menu main-card">
+        <h2>Account Settings</h2>
+        <ul class="settings-items">
+          <li class="settings-item">Edit profile</li>
+          <li class="settings-item">Change password</li>
+          <li class="settings-item darkBtn">Dark theme</li>
+          <li class="settings-item">Enable notifications</li>
+          <div></div>
+        </ul>
+        <h2>Other Settings</h2>
+        <ul class="settings-items">
+          <li class="settings-item">Terms and Conditions</li>
+          <li class="settings-item">Privacy policy</li>
+          <div></div>
+        </ul>
+      </div>
+      <footer class="footer">
+        <ul class="menu">
+          <li class="menu-item">
+            <img src="./img/home.png" alt="home" />
+            <p>Home</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/files.png" alt="files" />
+            <p>Files</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/account.png" alt="account" />
+            <p>Account</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/settings.png" alt="settings" />
+            <p>Settings</p>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <div class="container account-section">
+      <div class="header">
+        <div class="ham">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="account">
+          <img src="./img/logout.png" alt="" />
+          <p class="name">Log Out</p>
+        </div>
+      </div>
+      <div class="title-left">
+        <h1>Account</h1>
+      </div>
+      <div class="account-details">
+        <img src="./img/account.png" alt="image" />
+        <div>
+          <h5>User Name</h5>
+          <p>ID: xxx-xxx-xxxx</p>
+        </div>
+      </div>
+      <div class="purchase main-card">
+        <div class="all storage-percent">
+          <div class="percentage second">
+            <svg>
+              <circle cx="50" cy="50" r="50"></circle>
+              <circle cx="50" cy="50" r="50"></circle>
+            </svg>
+            <div class="number">
+              <h2>34%</h2>
+              <p>full</p>
+            </div>
+          </div>
+          <div class="desc">
+            <h3>Available space: <span class="bold">40GB</span></h3>
+            <h3>Used space: <span class="bold">50GB</span></h3>
+          </div>
+        </div>
+        <h2>Purchased Storage: 30GB</h2>
+        <div class="buttons">
+          <button class="btn med">Buy Storage</button>
+          <button class="btn med">Manage Storage</button>
+        </div>
+        <div class="icons">
+          <img src="./img/plus.png" alt="plus" />
+          <img src="./img/question.png" alt="question" />
+        </div>
+      </div>
+      <div class="data-details">
+        <div class="single-detail">
+          <h1>0</h1>
+          <p>Images</p>
+        </div>
+        <div class="single-detail">
+          <h1>0</h1>
+          <p>Videos</p>
+        </div>
+        <div class="single-detail">
+          <h1>0</h1>
+          <p>Audios</p>
+        </div>
+        <div class="single-detail">
+          <h1>0</h1>
+          <p>Docs</p>
+        </div>
+      </div>
+      <footer class="footer">
+        <ul class="menu">
+          <li class="menu-item">
+            <img src="./img/home.png" alt="home" />
+            <p>Home</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/files.png" alt="files" />
+            <p>Files</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/account.png" alt="account" />
+            <p>Account</p>
+          </li>
+          <li class="menu-item">
+            <img src="./img/settings.png" alt="settings" />
+            <p>Settings</p>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
